@@ -1,0 +1,16 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore virtual environment
+venv/
+
+# Ignore environment files (if used)
+.env
+
+# Ignore datasets, large files (optional)
+*.pth  # PyTorch checkpoint files (if not needed)
+
+# Ignore system files
+.DS_Store
+Thumbs.db
